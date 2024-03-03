@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+#line{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    position:relative;
+    top: 40%;
+    gap: 30px;
+
+}
+#line1{
+    height: 15px;
+    width: 12%;
+    background-color: #000;
+    transform-origin: 0;
+    transition: all 2s;
+}
+#line2{
+    height: 15px;
+    width: 12%;
+    background-color: #000;
+    /* transform-origin: 0; */
+    transition: all 2s;
+
+}
+#line3{
+    height: 15px;
+    width: 12%;
+    background-color: #000;
+    transform-origin: 0;
+    transition: all 2s;
+    
+
+}
